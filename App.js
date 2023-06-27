@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
 import { StyleSheet, Text, View, TextInput, ScrollView, Image, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import LinearGradient from 'react-native-linear-gradient';
 
 // App Hauptkomponente
 export default function App() {
@@ -100,7 +101,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EB6424',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
