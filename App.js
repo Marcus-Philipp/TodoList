@@ -1,9 +1,8 @@
 // Imports
 import React, { useState } from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
-import { StyleSheet, Text, View, TextInput, ScrollView, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, ScrollView, Image, TouchableOpacity, StatusBar } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import LinearGradient from 'react-native-linear-gradient';
 
 // App Hauptkomponente
 export default function App() {
@@ -66,6 +65,7 @@ export default function App() {
   // UI der App
   return (
     <View style={styles.container}>
+      <StatusBar hidden={false} backgroundColor='#EB6424' barStyle='light-content'/>
       <Image
         source={require('./Todo.jpg')}
         style={styles.image} />

@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TodoLIst",
-    "slug": "TodoLIst",
+    "name": "TodoList",
+    "slug": "todolist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,17 +19,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.phipsmeister.TodoLIst"
+      "package": "com.phipsmeister.TodoList"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "27e04a1b-eb52-48af-a8a3-8e6cd6518753"
+        "projectId": "ccd70e7b-378b-4559-9e6d-73c781b4c299"
       }
     }
   }
